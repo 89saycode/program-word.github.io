@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>打字练习</title>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <div class="promp-title">Ecs按键结束练习</div>
+    <div id="word-container"></div>
+    <input type="text" id="input-word" autofocus />
+
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <h2>练习结束</h2>
+        <p><span class="label">总时间: </span><span id="word-time"></span></p>
+        <p><span class="label">单词数: </span><span id="word-num"></span></p>
+        <p><span class="label">错误数: </span><span id="err-num"></span></p>
+      </div>
+    </div>
+    <script src="js/index.js"></script>
+  </body>
+</html>
